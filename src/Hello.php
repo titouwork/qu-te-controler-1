@@ -1,10 +1,9 @@
 <?php
-namespace App\Hello; 
+namespace App; 
 
 
 class Hello{
 
-private string $validezsvp;
 
 public function talk(): string 
 {

@@ -1,6 +1,10 @@
-<?php
-require DIR . '/../vendor/autoload.php';
+<?php 
 
-$hello = new App\Hello();
-echo $hello->talk();
+require __DIR__ . '/../vendor/autoload.php';
+
+use App\Hello;
+
+$hi = new Hello();
+echo $hi->talk();
+
 ?>
