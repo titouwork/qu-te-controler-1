@@ -1,0 +1,9 @@
+{
+    "name": "wild/app",
+    "autoload": {
+        "psr-4": {
+            "Wild\\App\\": "src/"
+        }
+    },
+    "require": {}
+}
